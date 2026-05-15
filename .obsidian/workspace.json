@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "source/_posts/FPGA 实现通信接口/FPGA SPI 通信.md",
+                "file": "source/about/about.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "FPGA SPI 通信"
+              "title": "about"
             }
           }
         ]
@@ -156,8 +156,8 @@
             "state": {
               "type": "git-view",
               "state": {},
-              "icon": "lucide-ghost",
-              "title": "git-view"
+              "icon": "git-pull-request",
+              "title": "Source Control"
             }
           }
         ],
@@ -165,8 +165,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -184,51 +183,51 @@
   },
   "active": "d3baea3663a3b1d5",
   "lastOpenFiles": [
-    "db.json",
-    "public/tags/经验分享/index.html",
-    "public/tags/经验分享",
-    "public/tags/嵌入式/index.html",
-    "public/tags/嵌入式",
-    "public/tags/Verilog/index.html",
-    "public/tags/Verilog",
-    "public/js/script.js",
-    "public/js/jquery-3.6.4.min.js",
-    "public/js",
-    "public/fancybox/jquery.fancybox.min.js",
-    "public/css/images/banner.jpg",
-    "public/img/fpga_impl_interface/ethernet_impl/eth-04/arp_format_mac.png",
-    "public/img/fpga_impl_interface/ethernet_impl/eth-04/arp_format.png",
-    "public/img/fpga_impl_interface/ethernet_impl/eth-04/arp_block_diagram.png",
-    "public/img/fpga_impl_interface/ethernet_impl/eth-03/ethII_frame_format.png",
-    "public/img/fpga_impl_interface/ethernet_impl/eth-02/ODDR_CLK_EDGE_SAME_EDGE.png",
-    "public/img/fpga_impl_interface/ethernet_impl/eth-02/ODDR_CLK_EDGE_OPPOSITE_EDGE.png",
-    "public/img/fpga_impl_interface/ethernet_impl/eth-02/IDDR_CLK_EDGE_SAME_EDGE_PIPELINED.png",
-    "public/img/fpga_impl_interface/ethernet_impl/eth-02/IDDR_CLK_EDGE_SAME_EDGE.png",
-    "public/img/fpga_impl_interface/ethernet_impl/eth-02/IDDR_CLK_EDGE_OPPOSITE_EDGE.png",
-    "source/_posts/FPGA 实现通信接口/FPGA 实现以太网 PHY 芯片配置接口 —— MDIO 的学习与应用.md",
-    "source/_posts/FPGA 实现通信接口/FPGA 串口通信.md",
-    "source/_posts/FPGA 实现通信接口/FPGA 实现以太网通信 - 系列文章/ETH-04 ARP 通信协议简介及实现代码.md",
-    "source/_posts/FPGA 实现通信接口/FPGA 实现以太网通信 - 系列文章/ETH-03 以太网帧结构介绍以及 Verilog 实现代码.md",
-    "source/_posts/FPGA 实现通信接口/FPGA 实现以太网通信 - 系列文章/ETH-02 RGMII 接口和 GMII 接口的互相转换.md",
-    "source/_posts/FPGA 实现通信接口/FPGA 实现以太网通信 - 系列文章/ETH-01 初识以太网的硬件组成.md",
-    "source/_drafts/Verilog 基础语法、知识.md",
-    "source/_drafts/Verilog 程序设计.md",
-    "source/_drafts/ETH - 以太网通信.md",
-    "source/_drafts/test-draft.md",
-    "source/_drafts/test.md",
+    "themes/hexo-theme-butterfly/hexo-theme-butterfly-mytheme",
+    "source/about/about.md",
+    "source/friends/index.md",
+    "source/tags/index.md",
+    "source/tags/index-1.md",
+    "source/_posts/STM32/01-将字库数据烧录到 Flash 芯片内的方法.md",
+    "source/tags",
+    "source/img/posts",
+    "source/img/新建文件夹",
+    "source/img/posts/STM32/01/goto_address1.png",
+    "source/img/posts/STM32/01/generate_index_data.gif",
+    "source/img/posts/STM32/01/font_data_validation.png",
+    "source/img/posts/STM32/01",
+    "source/img/posts/STM32",
     "source/_posts/FPGA 实现通信接口/FPGA SPI 通信.md",
-    "Verilog 学习笔记/Verilog 基础语法、知识.md",
-    "Verilog 学习笔记/Verilog 程序设计.md",
-    "Verilog 学习笔记/FPGA 实现通信接口/FPGA 实现以太网通信 - 系列文章/ETH-01 初识以太网的硬件组成.md",
-    "Verilog 学习笔记/FPGA 实现通信接口/FPGA SPI 通信.md",
-    "Verilog 学习笔记/FPGA 实现通信接口/FPGA 实现以太网通信 - 系列文章/ETH - 以太网通信.md",
-    "Verilog 学习笔记/FPGA 实现通信接口/FPGA 实现以太网通信 - 系列文章/ETH-04 ARP 通信协议简介及实现代码.md",
-    "Verilog 学习笔记/FPGA 实现通信接口/FPGA 实现以太网通信 - 系列文章/ETH-03 以太网帧结构介绍以及 Verilog 实现代码.md",
-    "Verilog 学习笔记/FPGA 实现通信接口/FPGA 实现以太网通信 - 系列文章/ETH-02 RGMII 接口和 GMII 接口的互相转换.md",
-    "Verilog 学习笔记/FPGA 实现通信接口/FPGA 实现以太网 PHY 芯片 配置接口 —— MDIO 的学习与应用.md",
-    "Verilog 学习笔记/FPGA 实现通信接口/FPGA 串口通信.md",
-    "Verilog 学习笔记/学习/FPGA 实现通信接口/FPGA 实现以太网通信 - 系列文章/eth-05 UDP 通信协议简介及实现代码/未命名.md",
-    "Verilog 学习笔记/学习/FPGA 实现通信接口/以太网通信/eth-02 RGMII 接口和 GMII 接口/ETH-02 RGMII 接口和 GMII 接口的互相转换.md",
-    "Verilog 学习笔记/学习/未命名.md"
+    "source/_posts/STM32",
+    "source/_posts/新建文件夹",
+    "source/_posts/FPGA",
+    "source/_posts/FPGA 实现通信接口/FPGA 串口通信.md",
+    "source/_posts/FPGA 实现通信接口/FPGA 实现以太网通信 - 系列文章/ETH-01 初识以太网的硬件组成.md",
+    "source/_data/link.yml",
+    "source/_data",
+    "source/_posts/FPGA 实现通信接口/FPGA 实现以太网 PHY 芯片配置接口 —— MDIO 的学习与应用.md",
+    "source/img/avatar.jpg",
+    "source/img/bg.jpg",
+    "source/img/friend_link/thanks/butterfly-icon.png",
+    "source/archives/index.md",
+    "node_modules/hexo-wordcount/README.md",
+    "node_modules/pug-runtime/CHANGELOG.md",
+    "node_modules/pug-error/README.md",
+    "node_modules/pug-lexer/README.md",
+    "node_modules/pug/README.md",
+    "node_modules/jstransformer/LICENSE.md",
+    "node_modules/pug-linker/README.md",
+    "node_modules/pug-load/README.md",
+    "node_modules/pug-strip-comments/README.md",
+    "node_modules/@babel/types/README.md",
+    "node_modules/jstransformer/README.md",
+    "node_modules/@babel/helper-string-parser/README.md",
+    "node_modules/@babel/helper-validator-identifier/README.md",
+    "node_modules/@babel/parser/CHANGELOG.md",
+    "node_modules/escape-html/Readme.md",
+    "node_modules/highlight.js/styles/pojoaque.jpg",
+    "node_modules/highlight.js/styles/brown-papersq.png",
+    "node_modules/nib/iconic/iconic_stroke.svg",
+    "node_modules/hexo-theme-landscape/source/css/images/banner.jpg"
   ]
 }

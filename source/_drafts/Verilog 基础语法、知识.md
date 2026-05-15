@@ -112,11 +112,11 @@ end
 
 组合逻辑电路示意图：
 
-![[img/uncategorized/组合逻辑图.png]]
+![[../img/posts/uncategorized/组合逻辑图.png]]
 
 
 时序逻辑电路示意图：
-![[img/uncategorized/时序逻辑图.png]]
+![[../img/posts/uncategorized/时序逻辑图.png]]
 
 
 

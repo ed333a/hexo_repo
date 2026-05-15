@@ -1,0 +1,130 @@
+.container
+  .flink
+    margin-bottom: 20px
+
+    .flink-list
+      overflow: auto
+      padding: 10px 10px 0
+      text-align: center
+
+      & > .flink-list-item
+        position: relative
+        float: left
+        overflow: hidden
+        margin: 15px 7px
+        width: calc(100% / 3 - 14px)
+        height: 150px
+        background: var(--card-bg)
+        addBorderRadius(8)
+        box-shadow: 0 3px 8px 6px rgba(7, 17, 27, .15)
+        transition: all .3s ease-in-out
+
+        +maxWidth1024()
+          width: calc(50% - 15px) !important
+
+        +maxWidth600()
+          width: calc(100% - 15px) !important
+
+        &:hover
+          transform: scale(1.02)
+          box-shadow: 0 3px 8px 6px rgba(30, 30, 30, 0.2)
+
+        a
+          color: var(--font-color)
+          text-decoration: none
+          display: flex
+          flex-direction: column
+          height: 100%
+
+          .flink-item-cover
+            width: 100%
+            height: 140px
+            overflow: hidden
+            transition: all .3s ease-in-out
+
+            img
+              width: 100%
+              height: 100%
+              object-fit: cover
+            
+            &:hover
+              transform: scale(1.05)
+
+          .flink-item-content
+            display: flex
+            padding: 20px
+            align-items: center
+            height: 100%
+
+            .flink-item-icon
+              flex-shrink: 0
+              width: 50px
+              height: 50px
+              overflow: hidden
+              margin-right: 10px
+              border-radius: 7px
+
+              img
+                width: 100%
+                height: 100%
+                object-fit: cover
+
+            .flink-item-info
+              flex: 1
+              display: flex
+              flex-direction: column
+              justify-content: space-between
+              text-align: left
+              height: 100%
+
+              .flink-item-name
+                @extend .limit-one-line
+                font-weight: bold
+                font-size: 1em
+                margin-bottom: 2px
+
+              .flink-item-desc
+                font-size: .85em
+                color: var(--font-color)
+                line-height: 1.4
+
+          .flink-item-time
+            // padding: 0 10px 10px
+            margin-top: 10px
+            font-size: .8em
+            color: var(--font-color)
+            text-align: left
+
+    .flink-name
+      margin-bottom: 5px
+      font-weight: bold
+      font-size: 1.5em
+
+// 亮色模式样式
+.flink-list-item
+  color: var(--font-color)
+  
+  .flink-item-name
+    color: var(--font-color)
+  
+  .flink-item-desc
+    color: var(--light-grey)
+  
+  .flink-item-time
+    color: var(--light-grey)
+
+// 深色模式样式
+[data-theme='dark'] .flink-list-item,
+[color-mode='dark'] .flink-list-item,
+html[data-color-mode='dark'] .flink-list-item
+  box-shadow: 0 3px 8px 6px rgba(255, 255, 255, .1)
+  color: #fff
+  
+  .flink-item-name
+    color: #fff
+  
+  .flink-item-desc
+    color: #ccc
+  
+  .flink-item-time
+    color: #ccc

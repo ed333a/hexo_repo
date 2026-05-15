@@ -6,7 +6,7 @@ IP 是 Internet Protocol(国际互连协议) 的缩写。
 #### MAC 帧
 
 #### IP 数据段格式
-![[../img/uncategorized/IP 协议数据结构.png]]
+![[../img/posts/uncategorized/IP 协议数据结构.png]]
 - **版本 (4 bits)**: IP 版本号，IPv4 = 4, IPv6 = 6.
 - **首部长度 (4 bits)**: 以 32bit (4 字节) 为单位，首部长度一般填 5, 即 20 字节的长度.
 - **服务类型 (8 bits)**: 默认为 0 就行，用于一般服务.
@@ -26,7 +26,7 @@ IP 是 Internet Protocol(国际互连协议) 的缩写。
 - **负载数据**：用户传输的负载数据
 ### 首部校验和计算方法
 假设 IP 首部经过填充后如下图
-![[../img/uncategorized/IP 首部填充后数据.png]]
+![[../img/posts/uncategorized/IP 首部填充后数据.png]]
 校验和计算（从 bit 0 开始）
 ```text
 0x4500 + 0x003C +  (0x003C: IP 首部长度 20, 数据段 40)
@@ -46,9 +46,9 @@ IP 是 Internet Protocol(国际互连协议) 的缩写。
 
 ### ICMP 协议格式
 #### MAC 帧
-![[../img/uncategorized/IP 协议 MAC 帧.png]]
+![[../img/posts/uncategorized/IP 协议 MAC 帧.png]]
 #### 数据段格式
-![[../img/uncategorized/ICMP 数据段格式.png]]
+![[../img/posts/uncategorized/ICMP 数据段格式.png]]
 - **类型 (8 bits)**: ICMP 报文类型, 主要分为**查询报文**和**差错报文**两大类 [报文类型表](#报文类型表)
 - **代码 (8bits)**: ICMP 差错报文类型, 根据ICMP差错报文的类型，进一步分析错误的原因，代码值不同对应的错误也不同. 
 - **校验和(16 bits)**: 用于检查数据报文是否有错误。
@@ -92,9 +92,9 @@ IP 是 Internet Protocol(国际互连协议) 的缩写。
 # UDP 协议
 ### UDP 协议格式
 #### MAC 帧
-![[../img/uncategorized/UDP 协议 MAC 帧.png]]
+![[../img/posts/uncategorized/UDP 协议 MAC 帧.png]]
 #### 数据段格式
-![[../img/uncategorized/UDP 数据段格式.png]]
+![[../img/posts/uncategorized/UDP 数据段格式.png]]
 - **IP 首部**: [IP 数据段格式](#IP%20数据段格式)
 - **源端口号 (16 bits)**: 发送端的 16 位端口号
 - **目的端口号 (16 bits)**: 接收端的 16 位端口号

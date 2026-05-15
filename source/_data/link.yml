@@ -1,0 +1,22 @@
+- class_name: 我自己
+  class_desc: 这是我自己的博客地址
+  link_list:
+    - name: 我的博客
+      link: https://www.myblog.com/
+      avatar: "/img/avatar.jpg"
+      descr: 我自己的博客
+      time: 于 2026-04-1 收录
+
+- class_name: 鸣谢
+  class_desc: 感谢以下项目的贡献
+  link_list:
+    - name: Hexo
+      link: https://hexo.io/zh-tw/
+      avatar: https://d33wubrfki0l68.cloudfront.net/6657ba50e702d84afb32fe846bed54fba1a77add/827ae/logo.svg
+      descr: 快速、简单且强大的博客框架，为博客提供了建站基础。
+      time: 于 2026-04-1 收录
+    - name: Butterfly
+      link: https://butterfly.js.org/
+      avatar: "/img/friend_link/thanks/butterfly-icon.png"
+      descr: 功能强大的 Hexo 主题。本站基于 Butterfly 主题修改。
+      time: 于 2026-04-1 收录

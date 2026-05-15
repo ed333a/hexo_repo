@@ -1,0 +1,234 @@
+{
+  "main": {
+    "id": "5c912b78dc866270",
+    "type": "split",
+    "children": [
+      {
+        "id": "894365f047994c0e",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "d3baea3663a3b1d5",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "source/_posts/FPGA 实现通信接口/FPGA SPI 通信.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "FPGA SPI 通信"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "5d32182bc24eacf8",
+    "type": "split",
+    "children": [
+      {
+        "id": "1d2ed945385a7344",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "aa405c61fbcc76d3",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical",
+                "autoReveal": false
+              },
+              "icon": "lucide-folder-closed",
+              "title": "文件列表"
+            }
+          },
+          {
+            "id": "45d2da7ef115b9b2",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              },
+              "icon": "lucide-search",
+              "title": "搜索"
+            }
+          },
+          {
+            "id": "6dbfbfaf3aa723d9",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {},
+              "icon": "lucide-bookmark",
+              "title": "书签"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 324.5
+  },
+  "right": {
+    "id": "16bed4d40a733974",
+    "type": "split",
+    "children": [
+      {
+        "id": "5b4e6089d0fcddec",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "2e3e91cfc6e4f0d5",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "Verilog 学习笔记/学习/PLL 锁相环.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-coming-in",
+              "title": "PLL 锁相环 的反向链接列表"
+            }
+          },
+          {
+            "id": "4c1b2fc40c81ad9d",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-going-out",
+              "title": "出链"
+            }
+          },
+          {
+            "id": "75d318f94c063a01",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-tags",
+              "title": "标签"
+            }
+          },
+          {
+            "id": "5a800db467b5b914",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "Verilog 学习笔记/学习/ETH - MDIO.md",
+                "followCursor": false,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-list",
+              "title": "ETH - MDIO 的大纲"
+            }
+          },
+          {
+            "id": "aabce0c9a9ecddef",
+            "type": "leaf",
+            "state": {
+              "type": "git-view",
+              "state": {},
+              "icon": "lucide-ghost",
+              "title": "git-view"
+            }
+          }
+        ],
+        "currentTab": 4
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:打开快速切换": false,
+      "graph:查看关系图谱": false,
+      "canvas:新建白板": false,
+      "daily-notes:打开/创建今天的日记": false,
+      "templates:插入模板": false,
+      "command-palette:打开命令面板": false,
+      "pdf-plus:PDF++: Toggle auto-copy": false,
+      "pdf-plus:PDF++: Toggle auto-focus": false,
+      "pdf-plus:PDF++: Toggle auto-paste": false,
+      "obsidian-git:Open Git source control": false
+    }
+  },
+  "active": "d3baea3663a3b1d5",
+  "lastOpenFiles": [
+    "db.json",
+    "public/tags/经验分享/index.html",
+    "public/tags/经验分享",
+    "public/tags/嵌入式/index.html",
+    "public/tags/嵌入式",
+    "public/tags/Verilog/index.html",
+    "public/tags/Verilog",
+    "public/js/script.js",
+    "public/js/jquery-3.6.4.min.js",
+    "public/js",
+    "public/fancybox/jquery.fancybox.min.js",
+    "public/css/images/banner.jpg",
+    "public/img/fpga_impl_interface/ethernet_impl/eth-04/arp_format_mac.png",
+    "public/img/fpga_impl_interface/ethernet_impl/eth-04/arp_format.png",
+    "public/img/fpga_impl_interface/ethernet_impl/eth-04/arp_block_diagram.png",
+    "public/img/fpga_impl_interface/ethernet_impl/eth-03/ethII_frame_format.png",
+    "public/img/fpga_impl_interface/ethernet_impl/eth-02/ODDR_CLK_EDGE_SAME_EDGE.png",
+    "public/img/fpga_impl_interface/ethernet_impl/eth-02/ODDR_CLK_EDGE_OPPOSITE_EDGE.png",
+    "public/img/fpga_impl_interface/ethernet_impl/eth-02/IDDR_CLK_EDGE_SAME_EDGE_PIPELINED.png",
+    "public/img/fpga_impl_interface/ethernet_impl/eth-02/IDDR_CLK_EDGE_SAME_EDGE.png",
+    "public/img/fpga_impl_interface/ethernet_impl/eth-02/IDDR_CLK_EDGE_OPPOSITE_EDGE.png",
+    "source/_posts/FPGA 实现通信接口/FPGA 实现以太网 PHY 芯片配置接口 —— MDIO 的学习与应用.md",
+    "source/_posts/FPGA 实现通信接口/FPGA 串口通信.md",
+    "source/_posts/FPGA 实现通信接口/FPGA 实现以太网通信 - 系列文章/ETH-04 ARP 通信协议简介及实现代码.md",
+    "source/_posts/FPGA 实现通信接口/FPGA 实现以太网通信 - 系列文章/ETH-03 以太网帧结构介绍以及 Verilog 实现代码.md",
+    "source/_posts/FPGA 实现通信接口/FPGA 实现以太网通信 - 系列文章/ETH-02 RGMII 接口和 GMII 接口的互相转换.md",
+    "source/_posts/FPGA 实现通信接口/FPGA 实现以太网通信 - 系列文章/ETH-01 初识以太网的硬件组成.md",
+    "source/_drafts/Verilog 基础语法、知识.md",
+    "source/_drafts/Verilog 程序设计.md",
+    "source/_drafts/ETH - 以太网通信.md",
+    "source/_drafts/test-draft.md",
+    "source/_drafts/test.md",
+    "source/_posts/FPGA 实现通信接口/FPGA SPI 通信.md",
+    "Verilog 学习笔记/Verilog 基础语法、知识.md",
+    "Verilog 学习笔记/Verilog 程序设计.md",
+    "Verilog 学习笔记/FPGA 实现通信接口/FPGA 实现以太网通信 - 系列文章/ETH-01 初识以太网的硬件组成.md",
+    "Verilog 学习笔记/FPGA 实现通信接口/FPGA SPI 通信.md",
+    "Verilog 学习笔记/FPGA 实现通信接口/FPGA 实现以太网通信 - 系列文章/ETH - 以太网通信.md",
+    "Verilog 学习笔记/FPGA 实现通信接口/FPGA 实现以太网通信 - 系列文章/ETH-04 ARP 通信协议简介及实现代码.md",
+    "Verilog 学习笔记/FPGA 实现通信接口/FPGA 实现以太网通信 - 系列文章/ETH-03 以太网帧结构介绍以及 Verilog 实现代码.md",
+    "Verilog 学习笔记/FPGA 实现通信接口/FPGA 实现以太网通信 - 系列文章/ETH-02 RGMII 接口和 GMII 接口的互相转换.md",
+    "Verilog 学习笔记/FPGA 实现通信接口/FPGA 实现以太网 PHY 芯片 配置接口 —— MDIO 的学习与应用.md",
+    "Verilog 学习笔记/FPGA 实现通信接口/FPGA 串口通信.md",
+    "Verilog 学习笔记/学习/FPGA 实现通信接口/FPGA 实现以太网通信 - 系列文章/eth-05 UDP 通信协议简介及实现代码/未命名.md",
+    "Verilog 学习笔记/学习/FPGA 实现通信接口/以太网通信/eth-02 RGMII 接口和 GMII 接口/ETH-02 RGMII 接口和 GMII 接口的互相转换.md",
+    "Verilog 学习笔记/学习/未命名.md"
+  ]
+}

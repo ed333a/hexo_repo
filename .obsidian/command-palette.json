@@ -1,0 +1,10 @@
+{
+  "pinned": [
+    "editor:toggle-bold",
+    "editor:toggle-strikethrough",
+    "editor:toggle-italics",
+    "app:open-settings",
+    "editor:toggle-inline-math",
+    "editor:toggle-code"
+  ]
+}

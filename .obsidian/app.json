@@ -5,7 +5,7 @@
   "newFileLocation": "current",
   "showLineNumber": false,
   "readableLineLength": true,
-  "newLinkFormat": "relative",
+  "newLinkFormat": "absolute",
   "useMarkdownLinks": true,
   "userIgnoreFilters": [
     "node_modules/.*",

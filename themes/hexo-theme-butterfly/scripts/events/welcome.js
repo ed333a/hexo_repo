@@ -6,7 +6,7 @@ hexo.on('ready', () => {
         Website       : https://butterfly.js.org/
         GitHub        : https://github.com/jerryc127/hexo-theme-butterfly
         Verision      : ${version}
-        Modified by   : 小田同学
+        Modified by   : XTT
         LastModified  : ${last_modified}
   ===================================================================`)
 })

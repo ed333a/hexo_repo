@@ -4,6 +4,8 @@ date: 2026-04-01 00:00:00
 ---
 
 > 欢迎你来到我的博客！这是一个使用 [Hexo](https://hexo.io/zh-cn/) 框架搭建的技术博客。现有主题基于 [Butterfly](https://github.com/jerryc127/hexo-theme-butterfly) 方案做了修改。目前小站还有很多缺点和不足，但已经在改变的路上，希望大家多多包涵~
+>
+>关于修改的主题我已上传到仓库：[ed333a/hexo-theme-butterfly-mytheme: 我的博客主题，一个由 ButterFly 主题修改的博客主题](https://github.com/ed333a/hexo-theme-butterfly-mytheme)
 
 ---
 <div class="about_header">

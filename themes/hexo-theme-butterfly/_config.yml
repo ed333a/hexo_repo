@@ -1135,8 +1135,8 @@ CDN:
     # katex_copytex:
     # lazyload:
     # local_search:
-    main: https://gcore.jsdelivr.net/gh/ed333a/ed333a.github.io@main/js/main.js
-    main_css: https://gcore.jsdelivr.net/gh/ed333a/ed333a.github.io@main/css/index.css
+    main: https://gcore.jsdelivr.net/gh/ed333a/ed333a.github.io/js/main.js
+    main_css: https://gcore.jsdelivr.net/gh/ed333a/ed333a.github.io/css/index.css
     # main_css: /css/index.css
     # mathjax:
     # medium_zoom:

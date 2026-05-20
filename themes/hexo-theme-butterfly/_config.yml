@@ -27,7 +27,7 @@ menu:
   首页: /index.html || fas fa-home
   归档: /archives/ || fas fa-archive
   友情链接: /friends/ || fas fa-link
-  关于我: /about/about || fas fa-user
+  关于我: /about/ || fas fa-user
 
 # --------------------------------------
 # Code Blocks Settings
@@ -52,8 +52,8 @@ code_blocks:
 # Formal:
 #   icon: link || the description || color
 social:
-  fab fa-github: https://github.com/xxxxx || Github || '#24292e'
-  fa-brands fa-gitee: https://gitee.com/xxxxx || Gitee || '#1890ff'
+  fab fa-github: https://github.com/ed333a || Github || '#24292e'
+  # fa-brands fa-gitee: https://gitee.com/xxxxx || Gitee || '#1890ff'
   # fas fa-envelope: mailto:xxxxxx@gmail.com || Email || '#4a7dbe'
 
 # --------------------------------------
@@ -249,7 +249,7 @@ post_pagination: 2
 
 # Displays outdated notice for a post
 noticeOutdate:
-  enable: true
+  enable: false
   # Style: simple / flat
   style: flat
   # When will it be shown
@@ -296,7 +296,7 @@ aside:
       enable: true
       icon: fab fa-github
       text: 关注我的 github
-      link: https://github.com/xxxxxx
+      link: https://github.com/ed333a
   card_announcement:
     enable: false
     content: 欢迎你来到我的博客！
@@ -1133,11 +1133,11 @@ CDN:
     # katex_copytex:
     # lazyload:
     # local_search:
-    # main:
-    # main_css:
+    main: https://cdn.jsdelivr.net/gh/ed333a/ed333a.github.io@main/js/main.js
+    main_css: https://cdn.jsdelivr.net/gh/ed333a/ed333a.github.io@main/css/index.css
     # mathjax:
     # medium_zoom:
-    mermaid: /js/mermaid.min.js
+    # mermaid:
     # meting_js:
     # prismjs_autoloader:
     # prismjs_js:

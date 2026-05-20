@@ -26,4 +26,4 @@ categories:
 ![](../../img/posts/blog/02/sel_repo.png)
 之后我们会来到这个页面，相关选项已在图中表示，配置好后往下翻找到 Save and Deploy 蓝色按钮，点击保存后开始自动部署。
 ![](../../img/posts/blog/02/pages_setup.png)
-之后自动部署好的静态网页将可以通过 `hexo-repo-e1a.pages.dev` 这个链接访问。
+之后自动部署好的静态网页将可以通过 `hexo-repo-e1a.pages.dev` 这个链接访问。在这之前我已经创建好了一个静态资源网页，它的地址是 `hexo-repo-1qi.pages.dev`。

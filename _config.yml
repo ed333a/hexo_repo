@@ -120,3 +120,15 @@ search:
   field: post
   format: html
   limit: 10000
+
+# 图片路径扁平化
+flatten_img_path:
+  enable: true        # 插件总开关，设为 false 时插件完全禁用
+  flatten:            
+    enable: true      # 是否启用扁平化处理
+    removeAllUp: true # 是否移除所有 ./ 和 ../（当前固定为 true，预留字段）
+  mapping:
+    enable: false     # 是否启用路径映射
+    prefix: /images   # 映射后的路径前缀
+  debug: false         # 调试模式，会在控制台输出路径替换的详细信息
+

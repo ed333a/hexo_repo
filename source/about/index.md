@@ -40,18 +40,22 @@ date: 2026-04-01 00:00:00
 ### 关于名字
 - ed333：这个是我的 Minecraft 账号的 id，至于这个名字最初是如何而来的……我也记不太清了，或许是当时随便一按就出来了这么个名字吧😂😂😂
 - ed333a：纯粹是因为在 **github 中 ed333 这个名字被占用了**而诞生的，没有别的含义……
+
 ### 联系方式 & 社交媒体
 
 如果你有任何问题或建议，欢迎通过以下方式联系我：
 - **Github**：[ed333a](https://github.com/ed333a)
 - **Email**：[ed333.email@qq.com](mailto:ed333.email@qq.com)
 - **QQ**：3174941841
-### 😘 鸣谢
 
+### 😘 鸣谢
+感谢以下项目/服务提供建站基础。
 - **[Hexo](https://hexo.io/zh-cn/)**: 干净、简洁、高效的博客框架。
 - **[butterfly](https://github.com/jerryc127/hexo-theme-butterfly)**: 主题基础框架
+- **[Cloudflare](https://cloudflare.com/)**：为本站提供免费的 SSL 证书、域名解析、CDN 加速以及静态资源托管服务。
+- **[jsdelivr](https://www.jsdelivr.com)**：为本站提供免费的 CDN 加速服务。
 
-### 本站所用的字体
+### 🔤 本站所用的字体
 - **[荆南麦圆 2](https://www.fonts.net.cn/font-40340211780.html)**: 博客的主题字体 (收录于第三方网站: [字体天下](https://www.fonts.net.cn/)) 。
 ---
 

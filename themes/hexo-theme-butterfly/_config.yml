@@ -25,9 +25,11 @@ nav:
 
 menu:
   首页: /index.html || fas fa-home
+  关于我: /about/ || fas fa-user
+  标签: /tags/ || fas fa-tags
+  分类: /categories/ || fas fa-folder
   归档: /archives/ || fas fa-archive
   友情链接: /friends/ || fas fa-link
-  关于我: /about/ || fas fa-user
 
 # --------------------------------------
 # Code Blocks Settings

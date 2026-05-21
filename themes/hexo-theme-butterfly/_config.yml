@@ -265,7 +265,6 @@ noticeOutdate:
 # Footer Settings
 # --------------------------------------
 footer:
-  nav:
   owner:
     enable: true
     since: 2026
@@ -273,7 +272,10 @@ footer:
   copyright:
     enable: true
     version: true
-  custom_text: 
+  custom_text: |- 
+    本博客所有文章除特别声明外，均采用 
+    <a href="https://creativecommons.org/licenses/by-nc-sa/4.0/" target="_blank"> CC BY-NC-SA 4.0 </a> 
+    许可协议。
 
 # --------------------------------------
 # Aside Settings
@@ -770,7 +772,7 @@ theme_color:
   main: "#38bcff"
 #   paginator: "#00c4b6"
 #   button_hover: "#FF7242"
-#   text_selection: "#00c4b6"
+  text_selection: "#00abff"
   link_color: "#0366D6"
   link_color_hover: "#e030f8"
   blockquote_color: "#57606A"
@@ -1135,8 +1137,8 @@ CDN:
     # katex_copytex:
     # lazyload:
     # local_search:
-    main: https://gcore.jsdelivr.net/gh/ed333a/ed333a.github.io/js/main.js
-    main_css: https://gcore.jsdelivr.net/gh/ed333a/ed333a.github.io/css/index.css
+    # main: https://gcore.jsdelivr.net/gh/ed333a/ed333a.github.io/js/main.js
+    # main_css: https://gcore.jsdelivr.net/gh/ed333a/ed333a.github.io/css/index.css
     # main_css: /css/index.css
     # mathjax:
     # medium_zoom:

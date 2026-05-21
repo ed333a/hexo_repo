@@ -24,7 +24,7 @@ timezone: ''
 # URL
 ## Set your site url here. For example, if you use GitHub Page, set url as 'https://username.github.io/project'
 url: https://blog.tyh123.top/
-permalink: :hash/
+permalink: posts/:custom_link.html
 permalink_defaults:
 pretty_urls:
   trailing_index: true # Set to false to remove trailing 'index.html' from permalinks
@@ -128,7 +128,17 @@ flatten_img_path:
     enable: true      # 是否启用扁平化处理
     removeAllUp: true # 是否移除所有 ./ 和 ../（当前固定为 true，预留字段）
   mapping:
-    enable: true     # 是否启用路径映射
+    enable: false     # 是否启用路径映射
     prefix: https://fastly.jsdelivr.net/gh/ed333a/ed333a.github.io/   # 映射后的路径前缀
   debug: false         # 调试模式，会在控制台输出路径替换的详细信息
 
+custom_permalink:
+  enable: true      
+  crc_pad: true     
+  date_pad: true    
+  date_reverse: true
+  debug: false      
+  category_start: 10
+  crc_length: 8     
+  crc_format: dec   
+  separator: '-'    
